@@ -36,14 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  (https://www.ziggo.nl/)
+  (https://ziggodome.nl/en/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Ziggo Homepagina  
+  Ziggo Dome Homepagina  
   <img src="images/web-img-one.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Ziggo Klantenservice Contact  
+  Ziggo Dome Info Pagina  
   <img src="images/web-img-two.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
