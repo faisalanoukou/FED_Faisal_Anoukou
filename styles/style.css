@@ -15,8 +15,11 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#eee;
+	--highlight-text: #f39200;
+	--color-background:#111;
+	--nav-background: #1d1d22;
+	--div-background: #393943;
 }
 
 
@@ -29,3 +32,96 @@
 
 /* jouw code */
 
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	/* margin: 0; */
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--nav-background) ;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header li	{
+	display: flex;
+	flex-grow: 1;
+	list-style: none;
+	justify-content: center;
+	margin-top: 2%;
+}
+
+header li a {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+header img {
+	height: 2em;
+	width: 2em;
+}
+
+header li p {
+	margin-top: .3em;
+}
+
+h1 {
+	visibility: hidden;
+}
+
+#top-img {
+    width: 100%;
+}
+
+section {
+	display: flex;
+	overflow-x: auto;
+}
+
+span {
+	color: var(--highlight-text);
+}
+
+section a {
+	margin-right: .5em;
+}
+
+section a img {
+	border-radius: 20%;
+	width: 60vw;
+}
+
+#h2-center {
+	text-align: center;
+}
+
+article div {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--div-background);
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+footer div {
+	display: flex;
+	flex-direction: row;
+}
+
+footer div img {
+	max-width: 15vw;
+}
