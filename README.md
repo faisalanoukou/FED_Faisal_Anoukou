@@ -57,7 +57,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Er zijn heel veel headings op de pagina en dit maakt het moeilijker om snel en globaal te navigeren door de homepagina.
+  - De website heeft geen h1 aanwezig op de homepagina.
+  - Navigeren op elke heading soort (bijv. h2 en h3) is wel goed gestructureerd op de homepagina.
+  - Om de informatie op de pagina goed te begrijpen, moet je weten wat voor soort pagina het is. (De New en Upcoming headings geven niet genoeg informatie).
+  - De verschillende headingssoorten bij de artiesten kolommen maken het soms verwarrend om precies te vinden waar je naar op zoek bent.
+  - Navigeren door de links gaat ook met de verborgen dropdown menu en maakt het verwarrend.
+  - Navigeren door de links slaat sommige klikbare opties over op de homepagina.
+  - De wel geselecteerde links geven wel goed informatie over waar er naar gelikt wordt.
 
+  <img src="readme-images/access-one.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-two.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-three.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-four.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-five.png" width="auto" alt="Accessibility image">
 </details>
 
 
@@ -68,7 +81,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-page-one.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -155,7 +168,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+    - 
 
+  <img src="readme-images/access-six.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-seven.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-eight.png" width="auto" alt="Accessibility image">
+  <img src="readme-images/access-nine.png" width="auto" alt="Accessibility image">
 </details>
 
 
