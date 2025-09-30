@@ -48,10 +48,10 @@ a {
 	background-color: var(--color-text);
 	color: var(--anchor-color);
 	padding: 1em;
-	border-bottom-left-radius: 100rem;
-	border-bottom-right-radius: 100rem;
-	border-top-left-radius: 100rem;
-	border-top-right-radius: 100rem;
+	border-bottom-left-radius: 100rem; /* Code van Ziggo Dome pagina */
+	border-bottom-right-radius: 100rem; /* Code van Ziggo Dome pagina */
+	border-top-left-radius: 100rem; /* Code van Ziggo Dome pagina */
+	border-top-right-radius: 100rem; /* Code van Ziggo Dome pagina */
 }
 
 .yellow-black-button {
@@ -59,10 +59,10 @@ a {
 	color: var(--color-text);
 	padding: 1em;
 	border: var(--highlight-text) 3px solid;
-	border-bottom-left-radius: 100rem;
-	border-bottom-right-radius: 100rem;
-	border-top-left-radius: 100rem;
-	border-top-right-radius: 100rem;
+	border-bottom-left-radius: 100rem; /* Code van Ziggo Dome pagina */
+	border-bottom-right-radius: 100rem; /* Code van Ziggo Dome pagina */
+	border-top-left-radius: 100rem; /* Code van Ziggo Dome pagina */
+	border-top-right-radius: 100rem; /* Code van Ziggo Dome pagina */
 	width: max-content;
 	height: max-content;
 }
@@ -97,6 +97,51 @@ section, footer {
 
 
 /* HEADER CSS */
+header nav {
+  	position: fixed; /* Code van ChatGPT */
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+	z-index: 1000; /* Code van ChatGPT */
+}
+
+header ul {
+	display: flex;
+	margin-right: 1em;
+}
+
+header li {
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+header li:first-of-type {
+	margin-right: auto;
+}
+
+header img {
+	width: 40px;
+}
+
+header div {
+	display: none;
+  	position: absolute;
+	z-index: 1;
+}
+
+.dropdown-menu {
+  	position: relative; /* Code van ChatGPT */
+}
+
+.dropDown {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: var(--color-background);
+	width: 100vw;
+	flex-direction: column;
+}
 
 
 
@@ -104,13 +149,13 @@ section, footer {
 #top-img {
 	width: 100%;
   	height: 100%;
-  	object-fit: cover;
-  	object-position: top;
+  	object-fit: cover; /* Code van ChatGPT */
+  	object-position: top; /* Code van ChatGPT */
 	opacity: 80%;
 }
 
 .top-section {
-	position: relative;
+	position: relative; /* Code van W3Schools */
 	width: 100%;
   	height: 400px;
   	overflow: hidden;
@@ -118,10 +163,10 @@ section, footer {
 }
 
 .top-section h2 {
-	position: absolute;
+	position: absolute; /* Code van W3Schools */
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); /* Code van W3Schools */
 	font-size: 3em;
 }
 
@@ -174,7 +219,7 @@ section, footer {
 .artists-carousel ul {
 	display: flex;
 	flex-direction: row;
-	overflow-x: auto;
+	overflow-x: auto; /* Code van CodePen */
 	margin-left: 5%;
 	gap: 0.5em;
 }
@@ -188,8 +233,8 @@ section, footer {
 	border-radius: 5%;
 	width: 250px;
 	height: 350px;
-	object-fit: cover;
-	object-position: center;
+	object-fit: cover; /* Code van ChatGPT */
+	object-position: center; /* Code van ChatGPT */
 	opacity: 59%;
 }
 
@@ -410,7 +455,7 @@ section, footer {
 	width: 100%;
 }
 
-.info-reachability-section li, .info-important-section li, .info-experience-section ul:last-of-type li {
+.info-reachability-section li, .info-important-section li, .info-experience-section ul:last-of-type li { /* Code van CodePen */
 	margin-right: 1em;
 }
 
@@ -500,13 +545,12 @@ footer ul {
 	margin-bottom: 2em;
 }
 
-nav {
-  	position: fixed;
+footer nav {
+  	position: fixed; /* Code van ChatGPT */
   	bottom: 0;
   	left: 0;
   	width: 100%;
-	opacity: 100%;
-	z-index: 1000;
+	z-index: 1000; /* Code van ChatGPT */
 }
 
 footer nav ul {
@@ -579,14 +623,14 @@ footer nav li p {
 
 
 /* MEDIA QUERIES*/
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 540px) { /* Code van W3Schools */
 	.top-section-discover p {
 		width: 60%;
 	}
 }
 
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 850px) { /* Code van W3Schools */
 	.top-section h2, .top-section h3, .top-section p, .top-section a {
 		left: 10%;
 	}

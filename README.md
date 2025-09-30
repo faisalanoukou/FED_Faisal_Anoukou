@@ -84,11 +84,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdown-page-one.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  <img src="readme-images/breakdown-two.png" width="375px" alt="breakdown van een dynamisch deel">
 </details>
 
 
@@ -117,11 +113,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Verder werken aan de pagina.
+  - Breakdownschets maken en toevoegen aan de readme.
 </details>
 
 
@@ -135,6 +128,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - Breakdownschets was redelijk gestructureerd.
+  - De codering voor de homepagina was grotendeels goed.
+  - Het gebruik van de juiste tags kan nog beter.
 
 
   ### Agenda voor meeting
@@ -150,10 +146,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - De featured carousel hoeft niet 100% overeen te komen.
+  - Het gebruik van de ul en li + sections gebruiken over de hele pagina.
+  - Headings niet buiten de sections plaatsen.
+  - Twee navs (1 in header en andere in footer).
+  - Nested anchors in anchors verwijderen.
+  - De juiste lay-out voor sections die gehele anchors zijn.
 
 </details>
 
@@ -168,7 +166,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-    - 
+    - Het verwerken van een h1 op beide pagina's (hidden).
+    - De heading tags juist gebruiken voor betere navigatie op de pagina.
 
   <img src="readme-images/access-six.png" width="auto" alt="Accessibility image">
   <img src="readme-images/access-seven.png" width="auto" alt="Accessibility image">
@@ -187,6 +186,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - Het begin van de media query is goed verlopen en begrijp ik goed.
+  - De responsiveness is grotendeels gelukt.
+  - Het toevoegen van de navs in de header en footer moet nog gebeuren.
 
 
   ### Agenda voor meeting
@@ -202,10 +204,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Header uitwerken voor de top van de website.
+  - Span niet op zichzelf gebruiken in de html.
+  - Overbodige tags/code uit de html en css halen.
+  - Headings correct sorteren in de html.
 
 </details>
 
@@ -219,19 +221,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/recap-one.png" width="375px" alt="uitkomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Het schalen van een grote afbeelding die ik met cover goed kon gebruiken om de responsiveness te testen op mijn pagina ging heel goed.
+
+  <img src="readme-images/recap-two.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  De carousel met de meerdere items + animatie in focus brengen van 1 item per keer is mij helaas niet gelukt.
+
+  <img src="readme-images/recap-three.png" width="375px" alt="bummer">
 </details>
 
 
@@ -247,8 +253,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. [bron 1](https://icones.js.org/) - gebruikt voor alle svg's die er op de pagina te vinden zijn.
+  2. [bron 2](https://icons8.com/) - gebruikt voor de voorgaande iconen die geen svg's waren.
+  3. [bron 3](https://www.kindpng.com/imgv/iohJRhT_bacardi-logo-png-transparent-png/) - Bacardi logo in de footer
+  4. [bron 4](https://freebiesupply.com/logos/randstad-logo/) - Randstad logo in footer
+  5. [bron 5](https://brandslogos.com/h/heineken-logo-black-and-white-1/) - Heineken logo in footer
+  6. [bron 6](https://lvb.nl/the-work/ziggo-zakelijk-uitblinkers-in-zaken/club-lvb_logo-ziggo/) - Ziggo logo in footer
+  7. [bron 7](https://accessibleweb.com/color-contrast-checker/) - Color contrast checker
+  8. [bron 8](https://www.minifier.org/html-validator) - HTML Validator checker
+  9. [bron 9](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - CSS Tricks Flexbox guide
+  10. [bron 10](https://chromewebstore.google.com/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm) - WhatFont (Checken van font op pagina)
+  11. [bron 11](https://www.w3schools.com/howto/tryit.asp?font=Poppins) - W3Schools Poppins font code
+  12. [bron 12](https://www.w3schools.com/howto/tryit.asp?font=Open%20Sans) - W3Schools Open Sans code
+  13. [bron 13](https://www.w3schools.com/howto/howto_js_dropdown.asp) - W3Schools Dropdown menu code
+  14. [bron 14](https://validator.w3.org/nu/?doc=https%3A%2F%2Fziggodome.nl%2Fen%2F) - HTML Checker
+  15. [bron 15](https://www.w3schools.com/html/html_symbols.asp) - W3Schools webpagina voor copyright symbool code in de footer
+  16. [bron 16](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) - W3Schools voor de media queries
+  17. [bron 17](https://www.w3schools.com/howto/howto_css_image_text.asp) - W3Schools Text over image code
+  18. [bron 18](https://codepen.io/faisalanoukou/pen/bNVZKBv?editors=1100) - CodePen code voor Flexbox
+  19. [bron 19](https://chatgpt.com/) - ChatGPT
 
 </details>
