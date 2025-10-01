@@ -138,9 +138,25 @@ header div {
 	position: fixed;
 	top: 0;
 	right: 0;
-	background-color: var(--color-background);
+	background-color: var(--nav-background);
 	width: 100vw;
 	flex-direction: column;
+}
+
+.dropDown a {
+	display: flex;
+	flex-direction: row;
+	padding: 1.5em;
+}
+
+.dropDown a:first-of-type {
+	width: max-content;
+	margin-left: auto;
+}
+
+.dropDown svg {
+	margin-top: .6em;
+	margin-right: .7em;
 }
 
 
@@ -719,5 +735,76 @@ footer nav li p {
 
 	.info-experience-section ul:first-of-type li {
 		flex-basis: 25%;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: var(--color-text);
+		color: var(--color-background);
+	}
+
+	h3, p, a {
+		color: var(--color-background);
+	}
+
+	header p {
+		color: var(--highlight-text);
+	}
+
+	.top-section p, .top-section h2, .top-section h3 {
+		color: var(--color-text);
+	}
+
+	#top-img {
+		opacity: unset;
+	}
+
+	.artists-carousel-item a img {
+		opacity: 70%;
+	}
+
+	.artists-carousel a p {
+		font-weight: bold;
+	}
+
+	.featured-section h3, .featured-section p {
+		color: var(--color-text);
+	}
+
+	.our-favorites h2, .our-favorites div p {
+		color: var(--color-text);
+	}
+
+	.top-section-discover h2, .top-section-discover p {
+		color: var(--color-text);
+	}
+
+	.info-reachability-section .yellow-black-button {
+		color: var(--color-background);
+	}
+
+	.info-important-section a, .info-around-section a, .info-experience-section a {
+		background-color: var(--div-background);
+	}
+
+	.info-important-section h3, .info-important-section p {
+		color: var(--color-text);
+	}
+
+	.info-around-section h3, .info-around-section p {
+		color: var(--color-text);
+	}
+
+	.info-experience-section p {
+		color: var(--color-text);
+	}
+
+	svg, footer li p {
+		color: var(--highlight-text);
+	}
+
+	.footer-social-links svg, .footer-sponsors svg {
+		color: unset;
 	}
 }
