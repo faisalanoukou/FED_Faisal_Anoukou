@@ -1,0 +1,305 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    margin-left: .4%;
+    font-size: 1.2em;
+    padding: 0.5%;
+}
+
+h2 {
+    font-family: "Quintessential", serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3%;
+    padding: 1.5%;
+    background-color: darkslategray;
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+}
+
+p {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2%;
+}
+
+section {
+    /* position: sticky; */
+    min-height: 100vh;
+}
+
+
+
+/* Header CSS*/
+header {
+    background: darkslategray;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 70px;
+    border-bottom: #fff 1px solid;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    gap: 8%;
+}
+
+header li {
+    list-style: none;
+    padding: 4%;
+}
+
+header a {
+    text-decoration: none;
+    text-align: justify;
+    color: #fff;
+    white-space: nowrap;
+    padding: 12%;
+}
+
+header a:hover {
+    color: grey;
+}
+
+
+
+/* Introduction section CSS */
+.introduction-section {
+    background: #2f9179;
+    background: linear-gradient(180deg, rgba(47, 145, 121, 1) 0%, rgba(45, 115, 41, 1) 100%);
+    /* background-color: green; */
+    /* z-index: 1; */
+    text-align: center;
+}
+
+.introduction-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 4px solid darkslategrey;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.introduction-section h2 {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: .5%;
+    background-color: darkslategray;
+    border-top: unset;
+    border-bottom: #fff 1px solid;
+}
+
+.introduction-section p {
+    font-family: "Quintessential", serif;
+    font-size: 4em;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Personal information section CSS */
+.personal-section {
+    scroll-margin-top: 70px;
+    background: #2f9179;
+    background: linear-gradient(0deg, rgba(47, 145, 121, 1) 0%, rgba(45, 115, 41, 1) 100%);
+    /* background-color: gold; */
+    z-index: 2;
+}
+
+.personal-section h2 {
+    font-size: 3em;
+}
+
+.personal-section ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    list-style: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.personal-section li {
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border: darkslategray 2px solid;
+    margin-bottom: 5%;
+    width: 25%;
+}
+
+.personal-section h3 {
+    color: #fff;
+    background-color: darkslategray;
+    margin-top: 0;
+    padding: 3%;
+    margin-bottom: 0;
+}
+
+.personal-section p {
+    font-family: "Quintessential", serif;
+    font-size: 2em;
+    color: #000;
+    padding: 5%;
+    text-transform: unset;
+}
+
+
+
+/* Projects section CSS */
+.projects-section {
+    scroll-margin-top: 70px;
+    background: #2f9179;
+    background: linear-gradient(180deg, rgba(47, 145, 121, 1) 0%, rgba(45, 115, 41, 1) 100%);
+    /* z-index: 3; */
+    min-height: 3500px;
+}
+
+.projects-section h2 {
+    font-size: 3em;
+}
+
+.projects-section article {
+    display: flex;
+    flex-direction: row;
+    background-color: darkslategrey;
+    padding: 1%;
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    margin-bottom: 3%;
+}
+
+.projects-section article:nth-of-type(2), .projects-section article:nth-of-type(4), .projects-section article:nth-of-type(6) {
+    flex-direction: row-reverse;
+}
+
+.projects-section article div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-section div {
+    width: 50%;
+    height: 450px;
+}
+
+.projects-section img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-section h3 {
+    color: darkslategray;
+    background-color: #fff;
+    margin-top: 0;
+    padding: 2%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.projects-section p {
+    font-family: "Quintessential", serif;
+    font-size: 2em;
+    text-align: center;
+    text-transform: unset;
+}
+
+.projects-section a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(33, 56, 56);
+    border: #fff 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    padding: 3%;
+    margin-top: auto;
+    margin-bottom: 1%;
+}
+
+.projects-section a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* Contact information section CSS */
+.contact-section {
+    scroll-margin-top: 70px;
+    background: #2f9179;
+    background: linear-gradient(0deg, rgba(47, 145, 121, 1) 0%, rgba(45, 115, 41, 1) 100%);
+    /* z-index: 4; */
+}
+
+.contact-section h2 {
+    font-size: 3em;
+}
+
+.contact-section h3 {
+    color: #fff;
+    background-color: darkslategray;
+    margin-top: 0;
+    padding: 3%;
+    margin-bottom: 0;
+}
+
+.contact-section ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    list-style: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-section li {
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border: darkslategray 2px solid;
+    margin-bottom: 5%;
+    width: 25%;
+}
+
+.contact-section svg {
+    color: #000;
+    padding: 10%;
+    width: 40%;
+}
